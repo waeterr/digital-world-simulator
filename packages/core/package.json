@@ -1,0 +1,1 @@
+{"name":"@nexus/core","version":"1.0.0","type":"module","main":"src/index.ts","scripts":{"build":"tsc --noEmit","test":"vitest run --passWithNoTests"}}
