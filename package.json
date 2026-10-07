@@ -13,7 +13,7 @@
     "dev:web": "npm run dev -w @nexus/web",
     "build": "npm run build --workspaces",
     "typecheck": "tsc --noEmit",
-    "test": "npm run test --workspaces",
+    "test": "vitest run",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
   },
